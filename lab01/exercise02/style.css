@@ -14,8 +14,9 @@ Feel free to borrow from Exercise 1.
 section {
     width: 300px;
     display: inline-block;
-    border: dotted 1px #CCC; 
-
+    border: dotted 1px #CCC;
+    margin: 10px;
+    padding-bottom: 20px;
 }
 
 h2 {
@@ -38,7 +39,7 @@ button {
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
     section {
-        width: 300px;
+        width: 25%;
         display: inline-block;
         border: dotted 1px #CCC; 
     
@@ -68,6 +69,7 @@ button {
         width: 300px;
         display: inline-block;
         border: dotted 1px #CCC; 
+
     
     }
     
