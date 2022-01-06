@@ -12,7 +12,7 @@ Feel free to borrow from Exercise 1.
 */
 
 section {
-    width: 300px;
+    width: 250px;
     display: inline-block;
     border: dotted 1px #CCC;
     margin: 10px;
@@ -38,10 +38,20 @@ button {
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
+    body * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
     section {
-        width: 25%;
+        width: 250px;
         display: inline-block;
-        border: dotted 1px #CCC; 
+        border: dotted 1px #CCC;
+        margin: 10px;
+        padding-bottom: 20px;
     
     }
     
@@ -65,12 +75,20 @@ button {
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
-    section {
-        width: 300px;
-        display: inline-block;
-        border: dotted 1px #CCC; 
-
+    body * {
+        box-sizing: border-box;
+    }
     
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    section {
+        width: 250px;
+        display: inline-block;
+        border: dotted 1px #CCC;
+        margin: 10px;
+        padding-bottom: 20px;
     }
     
     h2 {
