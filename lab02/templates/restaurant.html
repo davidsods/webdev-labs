@@ -9,13 +9,12 @@
 </head>
 <body>
     {% include 'includes/header.html' %}
-
     <main>
         <!--<p>Search location: {{city}}</p>-->
         <!--<p>Search term: {{search_term or 'None Specified'}}</p>-->
         <section>
             <h2>{{ restaurant.get('name') }}</h2>
-            <img class='image' src="{{ restaurant. get('image_url') }}" >
+            <img class='image' src="{{ restaurant.get('image_url') }}" >
             <p>{{restaurant.get('display_address')  }}</p>
             <p>Price: {{restaurant.get('price')  }}</p>
             <p>Number of Reviews: {{restaurant.get('review_count')  }}</p>
@@ -29,4 +28,3 @@
     </main>
 </body>
 </html>
-
